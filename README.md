@@ -7,7 +7,7 @@ This short script goes some way to solving this problem, allowing the user to wr
 ## Usage
 The mappings from Gentlemanly PHP to actual PHP can be seen in the source code, defined in the `$syntax` array.
 A file containing Gentlemanly PHP code can be passed to the interpreter, which will by default evaluate the code and write a 'proper' PHP version to a separate file.
-To evaluate and translate a file `instructions.gphp` to instructions.php, use:
+To evaluate and translate a file `instructions.gphp` to `instructions.php`, use:
 
     php interpreter.php instructions.gphp
 
