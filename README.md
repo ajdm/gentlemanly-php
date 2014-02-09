@@ -15,5 +15,16 @@ To prevent the evaluation of the code, and to save the translated version to a f
 
     php interpreter.php --eval=false --outfile=translated.php instructions.php
 
+Instructions to the interpreter take the form of a letter, and so must have a correct salutation and sign-off.
+The interpreter will use the name at the end of the letter to address the user and so one should sign-off in the manner that one would wish to be addressed.
+For example, the canonical Hello World programme would be:
+
+    Dear Interpreter,
+
+    Proclaim "Hello world!";
+
+    Yours sincerely,
+    <your name here>
+
 ## Acknowledgements
 This was started after reading the entertaining article _[If PHP were British](https://www.addedbytes.com/blog/if-php-were-british/)_, by Dave Child.
