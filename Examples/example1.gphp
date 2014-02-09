@@ -1,0 +1,50 @@
+To whom it may concern,
+
+I declare £fileHandle to be take up thine pen for ("Examples/example1_scribed.txt", 'c+');
+
+Henceforth, £myArray is array(1, 2, 3);
+For each £elem in £myArray in turn {
+	Proclaim £elem and move onto the next line;
+	Then, note this down (£fileHandle, £elem);
+}
+
+Now, twiddle one's thumbs for 10 seconds;
+
+Also, £randValue = roll a die numbered from 10 to 12;
+Now, perchance (£randValue == 10) {
+	Announce "I have rolled a die and it hath landed on ten.";
+} or if (£randValue == 11) {
+	Announce "I have rolled a die and it hath landed on eleven.";
+} or, failing the above {
+	Announce "I deduce I must have rolled a twelve." and move onto the next line;
+}
+
+Rest thine pen for (£fileHandle);
+
+I say, date_default_timezone_set("UTC");
+Now, £dayNum = date('w');
+And so, consider £dayNum {
+	Perhaps 0:
+		Announce "Today is Sunday!" and move onto the next line;
+		Most excellent;
+	Perhaps 1:
+		Announce "Today is Monday!" and move onto the next line;
+		Most excellent;
+	Perhaps 2:
+		Announce "Today is Tuesday!" and move onto the next line;
+		Most excellent;
+	Perhaps 3:
+		Announce "Today is Wednesday!" and move onto the next line;
+		Most excellent;
+	Perhaps 4:
+		Announce "Today is Thursday!" and move onto the next line;
+		Most excellent;
+	Perhaps 5:
+		Announce "Today is Friday!" and move onto the next line;
+		Most excellent;
+	And, if one may be so bold:
+		Announce "Today is Saturday!" and move onto the next line;
+}
+
+I remain, as always, your humble and obedient servant,
+Charles
