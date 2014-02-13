@@ -13,7 +13,7 @@ To evaluate and translate a file `instructions.gphp` to `instructions.php`, use:
 
 To prevent the evaluation of the code, and to save the translated version to a file called `translated.php`, use:
 
-    php interpreter.php --eval=false --outfile=translated.php instructions.php
+    php interpreter.php --eval=false --outfile=translated.php instructions.gphp
 
 Instructions to the interpreter take the form of a letter, and so must have a correct salutation and sign-off.
 The interpreter will use the name at the end of the letter to address the user and so one should sign-off in the manner that one would wish to be addressed.
